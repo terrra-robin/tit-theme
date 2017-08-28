@@ -1,0 +1,49 @@
+footer.main .bigtree .logo{
+	background: url('../images/titlogo.png');
+}
+
+.bigtree_dialog_window{
+	height: 80%;
+	width: 80%;
+	max-width: 860px;
+}
+
+.bigtree_dialog_window .bigtree_dialog_form{
+	height: 100%;
+	padding-top: 38px;
+	box-sizing: border-box;
+}
+
+.bigtree_dialog_window .bigtree_dialog_form .overflow{
+	display: flex;
+  	flex-flow: column;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	max-height: none;
+	padding-bottom: 100px;
+}
+
+.bigtree_dialog_window .bigtree_dialog_form .overflow .callout_fields .form_fields fieldset{
+	width: initial;
+}
+
+.bigtree_dialog_window .bigtree_dialog_form .overflow .callout_fields{
+	width: 100%;
+	height: 100%;
+	flex: 2;
+}
+
+.bigtree_dialog_window .bigtree_dialog_form>footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.bigtree_dialog_window>h2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}

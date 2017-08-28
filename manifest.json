@@ -1,0 +1,111 @@
+{
+    "type": "package",
+    "id": "terra-it.skin.package.14062017",
+    "version": "0.1",
+    "compatibility": "4.0+",
+    "title": "Terra-IT Theme Package",
+    "description": "Package met css, javascript en standaard settings voor site titel, adres, bedrijfsnaam, etc.",
+    "keywords": [
+        ""
+    ],
+    "author": {
+        "name": "Terra-IT",
+        "url": "http://www.terra-it.com",
+        "email": "info@terra-it.com"
+    },
+    "licenses": [],
+    "components": {
+        "module_groups": [],
+        "modules": [],
+        "templates": [
+            false
+        ],
+        "callouts": [
+            false
+        ],
+        "settings": [
+            {
+                "id": "address",
+                "value": {
+                    "street": "Binckhorstlaan 36",
+                    "city": "Den Haag",
+                    "state": "",
+                    "zip": "2516 BE",
+                    "country": "Netherlands"
+                },
+                "type": "text",
+                "options": "{\n    \"validation\": \"\",\n    \"sub_type\": \"address\",\n    \"max_length\": \"\"\n}",
+                "name": "Adres",
+                "description": "",
+                "locked": "",
+                "system": "",
+                "encrypted": "",
+                "extension": null
+            },
+            {
+                "id": "company_name",
+                "value": "Crossfit Bink36",
+                "type": "text",
+                "options": "null",
+                "name": "Bedrijfsnaam",
+                "description": "",
+                "locked": "",
+                "system": "",
+                "encrypted": "",
+                "extension": null
+            },
+            {
+                "id": "contact_details",
+                "value": [
+                    {
+                        "__internal-title": "Algemeen",
+                        "__internal-subtitle": "",
+                        "title": "Algemeen",
+                        "phone": "+31(0)62484116",
+                        "email": "info[a]bink36[d]nl",
+                        "facebook": "https://www.facebook.com/CrossFitBink36/",
+                        "twitter": "https://twitter.com/CrossfitBink36"
+                    }
+                ],
+                "type": "matrix",
+                "options": "{\n    \"max\": \"1\",\n    \"style\": \"list\",\n    \"columns\": [\n        {\n            \"type\": \"text\",\n            \"id\": \"title\",\n            \"title\": \"Titel (algemeen bijvoorbeeld)\",\n            \"subtitle\": \"\",\n            \"display_title\": \"on\",\n            \"options\": \"\"\n        },\n        {\n            \"type\": \"text\",\n            \"id\": \"phone\",\n            \"title\": \"Telefoonnummer\",\n            \"subtitle\": \"\",\n            \"options\": \"{\\\"validation\\\":\\\"\\\",\\\"sub_type\\\":\\\"\\\",\\\"max_length\\\":\\\"\\\"}\"\n        },\n        {\n            \"type\": \"text\",\n            \"id\": \"email\",\n            \"title\": \"E-mailadres\",\n            \"subtitle\": \"\",\n            \"options\": \"{\\\"validation\\\":\\\"\\\",\\\"sub_type\\\":\\\"\\\",\\\"max_length\\\":\\\"\\\"}\"\n        },\n        {\n            \"type\": \"text\",\n            \"id\": \"facebook\",\n            \"title\": \"Facebook link\",\n            \"subtitle\": \"\",\n            \"options\": \"\"\n        },\n        {\n            \"type\": \"text\",\n            \"id\": \"twitter\",\n            \"title\": \"Twitter\",\n            \"subtitle\": \"\",\n            \"options\": \"\"\n        }\n    ]\n}",
+                "name": "Contactgegevens",
+                "description": "",
+                "locked": "",
+                "system": "",
+                "encrypted": "",
+                "extension": null
+            },
+            {
+                "id": "site_title",
+                "value": "Crossfit Bink36",
+                "type": "text",
+                "options": "null",
+                "name": "Site titel",
+                "description": "",
+                "locked": "",
+                "system": "",
+                "encrypted": "",
+                "extension": null
+            }
+        ],
+        "feeds": [
+            false
+        ],
+        "field_types": [
+            false
+        ],
+        "tables": []
+    },
+    "sql": [
+        "SET foreign_key_checks = 0",
+        "SET foreign_key_checks = 1"
+    ],
+    "files": [
+        "custom/admin/css/terra-it_bigtree_skin.css",
+        "custom/admin/images/titlogo.png",
+        "custom/admin/js/terra-it_bigtree_skin.js",
+        "custom/admin/layouts/_html-field-loader.php",
+        "custom/settings.php"
+    ]
+}
